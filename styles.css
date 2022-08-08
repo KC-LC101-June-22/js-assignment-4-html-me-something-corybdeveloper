@@ -1,1 +1,81 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: gainsboro;
+}
+
+figure {
+    padding: 1px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+figcaption {
+    margin: 25px 25px 25px;
+}
+
+img {
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 25px;
+    border-color: gainsboro;
+    box-shadow: 5px 5px 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Calibri', sans-serif;
+}
+
+li.hobbies {
+    display: inline;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.hobbies:hover {
+    color: cornflowerblue;
+    background-color: cornflowerblue;
+}
+
+a:hover {
+    color:black;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center;
+}
+
+#resume {
+    background-color: white;
+    border-style: solid;
+    border-color: none;
+    border-width: 0px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 10px gainsboro;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.funParagraph {
+    color: green;
+    text-align: center;
+}
+
